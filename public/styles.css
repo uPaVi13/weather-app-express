@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap");
+
+body {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+}
+
+header {
+  padding: 20px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  padding-bottom: 0;
+  margin-bottom: -10px;
+}
+
+h1,
+h3 {
+  font-weight: 600;
+}
+
+.container {
+  width: 720px;
+  height: 400px;
+  margin: 50px auto;
+  padding: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f1f0f0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+input {
+  height: 40px;
+  width: 400px;
+  background-color: azure;
+  color: #363232da;
+  padding: 5px 20px;
+  margin: 20px 30px 40px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(173, 201, 226, 0.7);
+}
+
+button {
+  height: 54px;
+  padding: 5px 20px;
+  font-size: 18px;
+  background-color: azure;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgb(173, 201, 226, 0.7);
+  cursor: pointer;
+}
+
+.search {
+  margin: 20px auto 30px auto;
+}
+
+.weather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(196, 196, 196, 0.356);
+  width: 500px;
+  padding: 30px 50px;
+  border-radius: 12px;
+}
+
+.temp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+img {
+  height: 70px;
+  padding: 10px;
+  padding-left: 0;
+}
