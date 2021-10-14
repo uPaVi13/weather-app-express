@@ -3,6 +3,8 @@ const { Template } = require('ejs');
 const express = require('express');
 const request = require('request');
 
+const PORT = process.env.PORT || 3000;
+
 const app = express();
 
 app.set('view engine','ejs');
@@ -58,7 +60,7 @@ app.get('/', (req, res) => {
 
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log(chalk.bgBlueBright.black('Server listening to port 3000 '));
 });
 
